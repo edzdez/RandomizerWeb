@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Randomizer</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id="topBar">
+            <h1 id="titleLabel">Randomizer</h1>
+        </div>
+        <h1 id="result">0</h1>
+        <p id="output">Generate a random number between 1 and <span id="display">5</span></p>
+        <!-- sliders from w3schools -->
+        <div class="slidecontainer">
+            <input type="range" min="2" max="10" value="6" class="slider" id="slider">
+        </div>
+        <button id="rollButton" class="w3-btn w3-ripple w3-teal">Roll!</button>
+        <script src="/scripts/displayUpdater.js"></script>
+        <script src="/scripts/roller.js"></script>
+    </body>
+</html>
